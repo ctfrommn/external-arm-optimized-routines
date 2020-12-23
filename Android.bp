@@ -30,7 +30,6 @@ cc_defaults {
     name: "libarm-optimized-routines-defaults",
     defaults: ["arm-optimized-routines-defaults"],
     ramdisk_available: true,
-    vendor_ramdisk_available: true,
     recovery_available: true,
     native_bridge_supported: true,
     apex_available: [
@@ -42,7 +41,6 @@ cc_defaults {
     static: {
         system_shared_libs: [],
     },
-    header_libs: ["libc_headers"],
 }
 
 cc_library {
